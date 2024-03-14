@@ -76,5 +76,106 @@
       "Durée d'une partie": "30 min max",
       "Difficulté": "Facile"
     }
+  },
+  {
+    "id": "05",
+    "name": "Captain Flip",
+    "image": "https://fungames.axess-informatique.com/new/27581-thickbox_default/captain-flip.jpg",
+    "prix": 25,
+    "caractéristiques": {
+      "nbrjoueurs": [
+        " De 1 à 4 joueurs ",
+        "En solo",
+        "A deux",
+        "En famille",
+        "Entre amis"
+      ],
+      "gameType": [
+        "Plateau"
+      ],
+      "Durée d'une partie": "De 30 à 60 min",
+      "Difficulté": "Facile"
+    }
+  },
+  {
+    "id": "06",
+    "name": "Wingspan",
+    "image": "https://fungames.axess-informatique.com/new/8641-thickbox_default/wingspan.jpg",
+    "prix": 59,
+    "caractéristiques": {
+      "nbrjoueurs": [
+        " De 1 à 5 joueurs ",
+        "En solo",
+        "A deux",
+        "En famille",
+        "Entre amis"
+      ],
+      "gameType": [
+        "Cartes"
+      ],
+      "Durée d'une partie": "60 min",
+      "Difficulté": "Moyenne"
+    }
+  },
+  {
+    "id": "07",
+    "name": "Challenger",
+    "image": "https://fungames.axess-informatique.com/new/20503-large_default/challengers.jpg",
+    "prix": 37,
+    "caractéristiques": {
+      "nbrjoueurs": [
+        " De 2 à 8 joueurs ",
+        "A deux",
+        "En famille",
+        "Entre amis"
+      ],
+      "gameType": [
+        "Cartes"
+      ],
+      "Durée d'une partie": "30 min",
+      "Difficulté": "Facile"
+    }
+  },
+  {
+    "id": "08",
+    "name": "Happy City",
+    "image": "https://fungames.axess-informatique.com/new/14030-thickbox_default/happy-city.jpg",
+    "prix": 18,
+    "caractéristiques": {
+      "nbrjoueurs": [
+        " De 1 à 4 joueurs ",
+        "Solo",
+        "A deux",
+        "En famille",
+        "Entre amis"
+      ],
+      "gameType": [
+        "Cartes"
+      ],
+      "Durée d'une partie": "30 min",
+      "Difficulté": "Facile"
+    }
+  },
+  {
+    "id": "09",
+    "name": "Skyjo",
+    "image": "https://fungames.axess-informatique.com/new/14030-thickbox_default/happy-city.jpg",
+    "prix": 16,
+    "caractéristiques": {
+      "nbrjoueurs": [
+        " De 2 à 8 joueurs ",
+        "A deux",
+        "En famille",
+        "Entre amis"
+      ],
+      "gameType": [
+        "Cartes"
+      ],
+      "Durée d'une partie": "De 30 à 60 min",
+      "Difficulté": "Facile"
+    }
   }
+
+
+  
 ]
