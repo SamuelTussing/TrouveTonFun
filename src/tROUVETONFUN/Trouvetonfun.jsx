@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import BaseDonnee from "../data/games.json"
+import Card from './card';
 
 const Trouvetonfun = () => {
 
@@ -48,9 +49,13 @@ const Trouvetonfun = () => {
             data.caractéristiques.gameType.includes(selectedOption2) &&
             data.caractéristiques.Difficulté.includes(selectedOption3) &&
             data.caractéristiques.nbrjoueurs.includes(selectedOption)
-            )
+            );
 
-            setFoundItems(jeuxTrouves.map(item => item.name));
+            if (jeuxTrouves.length >0) {
+                setFoundItems(jeuxTrouves);
+            }
+
+            //setFoundItems(jeuxTrouves.map(item => item.name));
       }
 
   return (<>
@@ -140,13 +145,17 @@ const Trouvetonfun = () => {
     </section>
 
     {/*  Affichage des résultats */}
-    <section className='mt-5 h-8 bg-green-100 p-11 w-full'>
+    <section className='mt-5 h-68 bg-green-100 p-11 w-full'>
     <div>
             {foundItems.length > 0 ? (
                 <ul className='flex gap-5'>
-                    {foundItems.map((name,index)=>(
-                        <li key={index}>{name}</li>
-                    ))}
+                    {foundItems.map((item,index)=>
+
+                        <Card
+                            key={index}
+                            item={item}
+                        />
+                    )}
                 </ul>
             ):(
                 "Aucun Jeu ne répond à votre requête. Vous êtes trop difficile."
