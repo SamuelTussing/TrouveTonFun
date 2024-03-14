@@ -1,0 +1,80 @@
+[
+  {
+    "id": "01",
+    "name": "Dorfromantik",
+    "image": "https://fungames.axess-informatique.com/new/25219-thickbox_default/dorfromantik.jpg",
+    "prix": 37,
+    "caractéristiques": {
+      "nbrjoueurs": [
+        " De 1 à 6 joueurs ",
+        "En solo",
+        "A deux",
+        "En famille",
+        "Entre amis"
+      ],
+      "gameType": [
+        "Plateau"
+      ],
+      "Durée d'une partie": "De 30 à 60 min",
+      "Difficulté": "Facile"
+    }
+  },
+  {
+    "id": "02",
+    "name": "Survivez jusqu'à l'aube",
+    "image": "https://fungames.axess-informatique.com/new/27239-thickbox_default/survivez-jusqu-a-l-aube.jpg",
+    "prix": 28,
+    "caractéristiques": {
+      "nbrjoueurs": [
+        " De 1 à 6 joueurs ",
+        "En solo",
+        "A deux",
+        "Entre amis"
+      ],
+      "gameType": [
+        "Cartes"
+      ],
+      "Durée d'une partie": "De 30 à 60 min",
+      "Difficulté": "Moyenne"
+    }
+  },
+  {
+    "id": "03",
+    "name": "Perudo",
+    "image": "https://fungames.axess-informatique.com/new/6946-thickbox_default/perudo.jpg",
+    "prix": 22,
+    "caractéristiques": {
+      "nbrjoueurs": [
+        " De 2 à 6 joueurs ",
+        "A deux",
+        "En famille",
+        "Entre amis"
+      ],
+      "gameType": [
+        "Dés"
+      ],
+      "Durée d'une partie": "30 min max",
+      "Difficulté": "Facile"
+    }
+  },
+  {
+    "id": "04",
+    "name": "Trio",
+    "image": "https://fungames.axess-informatique.com/new/27541-thickbox_default/trio.jpg",
+    "prix": 21,
+    "caractéristiques": {
+      "nbrjoueurs": [
+        " De 3 à 6 joueurs ",
+        "En solo",
+        "A deux",
+        "En famille",
+        "Entre amis"
+      ],
+      "gameType": [
+        "Cartes"
+      ],
+      "Durée d'une partie": "30 min max",
+      "Difficulté": "Facile"
+    }
+  }
+]
